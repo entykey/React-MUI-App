@@ -1,0 +1,12 @@
+/* hide the scrollbar for entire App: */
+* {
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
