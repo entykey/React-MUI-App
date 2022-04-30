@@ -45,11 +45,11 @@ const ClientTime = () => {
     });
 
     return(
-        <div>
+        <>
             <p> Time : { date.toLocaleTimeString()}</p>
             <p> Date : { date.toLocaleDateString()} (m/d/yyyy)</p>
             <p> Time zone: { timezone} </p>
-        </div>
+        </>
     )
 }
 
